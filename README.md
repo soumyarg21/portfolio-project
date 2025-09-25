@@ -1,16 +1,14 @@
-# portfolio-project
-This is a personal portfolio website built using HTML and CSS to showcase my skills, projects, and achievements. The website is fully responsive, visually appealing, and highlights my experience in web development.
+# Interactive Digital Portfolio
 
-Key Features:
-Clean and modern user interface.
-Sections for About Me, Skills, Projects, and Contact.
-Fully responsive design for mobile and desktop.
-Easy navigation and interactive elements using CSS.
+This is a starter single-page interactive portfolio built with HTML, CSS and JavaScript.
+It includes sample sections: About, Skills, Projects, Contact. Optional animations are implemented using GSAP (loaded from CDN).
 
-Technology Stack:
-Frontend: HTML, CSS
-Responsive Design: Media queries for mobile and desktop screens
+## How to use
+1. Unzip the archive.
+2. Open `index.html` in a browser (double-click or use live server).
+3. Replace placeholder texts, images, and project links with your own content.
+4. To deploy: push to GitHub and enable GitHub Pages, or host on Netlify / Vercel.
 
-Purpose:
-Serves as a personal branding tool to display projects, skills, and experience.
-Can be extended to include JavaScript interactivity or backend integration in the future.
+## Notes
+- Contact form is a static placeholder. To make it functional, wire it to a backend endpoint or use a service such as Formspree or Netlify Forms.
+- Images are stored in `/images`. Replace `profile-placeholder.png` with your profile picture.

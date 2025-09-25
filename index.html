@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Digital Portfolio - SOUMYA</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- GSAP CDN (optional animations) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">SOUMYA</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <h1>Hello, I'm <span class="accent">SOUMYA</span></h1>
+        <p class="lead">Aspiring Web Developer • JavaScript • UI/UX</p>
+        <a class="btn" href="#projects">View Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          Hello! I am <strong>Soumya</strong>, an <strong>MSc Computer Science student</strong> with a strong
+          interest in <em>Web Development, Artificial Intelligence (AI), and Internet of Things (IoT)</em>.
+          I enjoy creating interactive applications that combine functionality with clean, modern design.
+        </p>
+        <p>
+          My technical skills include <strong>Python, C, C++, Java, HTML, CSS, JavaScript, Flask, MySQL, and SQLite</strong>.  
+          I have hands-on experience in building both desktop and web applications. Some of my key projects include:
+        </p>
+        <ul>
+          <li><strong>Fitness Tracker (BMI Calculator)</strong> – A Flask-based web app with user login, BMI history tracking, and interactive Chart.js visualizations.</li>
+          <li><strong>Interactive Digital Portfolio</strong> – A personal website showcasing skills, projects, and contact details with smooth navigation and animations.</li>
+          
+        </ul>
+        <p>
+          I am also passionate about <strong>research</strong> and aim to publish papers in <em>Natural Language Processing (NLP)</em> and <em>IoT</em>.  
+          Continuous learning and exploring new technologies keep me motivated.
+        </p>
+        <p>
+          Beyond academics, I value <strong>teamwork, problem-solving, and knowledge sharing</strong>.  
+          My long-term goal is to grow as a professional software developer and contribute to innovative projects in AI, IoT, and modern web technologies.
+        </p>
+      </div>
+      <div class="about-card">
+        <img src="images/sou.jpeg" alt="Soumya" />
+        <ul>
+          <li><strong>🎓 Education:</strong> MSc Computer Science</li>
+          <li><strong>📍 Location:</strong> Belagavi, Karnataka, India</li>
+          <li><strong>📧 Email:</strong> soumyaganji21@gmail.com</li>
+          <li><strong>💼 Career Goal:</strong> To contribute to impactful projects in AI, IoT, and software development.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid" aria-hidden="false">
+          <div class="skill"><strong>HTML</strong><span>Semantic markup</span></div>
+          <div class="skill"><strong>CSS</strong><span>Responsive layouts</span></div>
+          <div class="skill"><strong>JavaScript</strong><span>ES6+, DOM</span></div>
+          <div class="skill"><strong>Python</strong><span>Flask / scripting</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>BMI Calculator</h3>
+            <p>Flask-based web app to compute BMI with user authentication and history tracking.</p>
+            <p class="tags">Flask • SQLite • Chart.js</p>
+            <div class="card-links">
+              <a href="#" target="_blank">Live</a>
+              <a href="#" target="_blank">Source</a>
+            </div>
+          </article>
+
+
+          <article class="project-card">
+            <h3>Interactive Portfolio (This Site)</h3>
+            <p>Responsive single-page website with smooth navigation and animations.</p>
+            <p class="tags">HTML • CSS • JavaScript • GSAP</p>
+            <div class="card-links">
+              <a href="#" target="_blank">Live</a>
+              <a href="#" target="_blank">Source</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<section id="publications" class="section alt">
+  <div class="container">
+    <h2>Research & Publications</h2>
+    <div class="publications-list">
+      <article class="publication-card">
+        <h3>Fitness Tracker (BMI Calculator) Web Application</h3>
+        <p>
+          Published in <em>International Journal of Engineering Technology Research & Management (IJETRM)</em>, Volume 09, Issue 09, September 2025.  
+          This paper presents the design and development of a <strong>Flask-based web application</strong> that calculates BMI, stores user history, 
+          and provides <strong>interactive data visualization using Chart.js</strong>.
+        </p>
+        <p class="tags">Flask • Web Application • Data Visualization • Health Monitoring</p>
+
+        <!-- Links to PDF and journal -->
+        <div class="card-links">
+          <a href="docs/Fitness-Tracker-Paper.pdf" target="_blank">📄 View Research Paper (PDF)</a>
+          <a href="docs/IJETRM-Fitness-Tracker-Certificate.pdf" target="_blank">📄 View Certificate (PDF)</a>
+          <a href="https://ijetrm.com/" target="_blank">🌐 View Journal</a>
+        </div>
+
+        <!-- Academic Reference (IEEE style) -->
+        <p class="publication-ref">
+          <strong>Reference (IEEE):</strong> S. R. Ganji, "Fitness Tracker (BMI Calculator) Web Application," 
+          <em>International Journal of Engineering Technology Research & Management (IJETRM)</em>, 
+          Vol. 09, Issue 09, Paper Code: IJETRM-0909-2025-08, Sep. 2025.  
+          [Online]. Available: 
+          <a href="docs/Fitness-Tracker-Paper.pdf" target="_blank">PDF</a>
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm" class="contact-form" action="#" method="POST">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <textarea name="message" rows="6" placeholder="Message"></textarea>
+          <button class="btn" type="submit">Send Message</button>
+          <p class="form-note">This sample form is non-functional. Replace action with server endpoint or use form services.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Soumya. All rights reserved.</p>
+      <div class="social">
+        <a href="#" aria-label="github">GitHub</a>
+        <a href="#" aria-label="linkedin">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
